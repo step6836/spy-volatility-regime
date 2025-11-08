@@ -1,0 +1,25 @@
+============================================================
+RUN 2 + CONDITIONAL ENTROPY FEATURES
+============================================================
+
+HYPOTHESIS:
+Entropy features need to be conditional on volatility level
+
+FEATURES ADDED (5):
+  - class1_signal
+  - class1_trendless
+  - compression_tight
+  - breakout_signal
+  - vol_tight_interaction
+
+============================================================
+RESULTS
+============================================================
+
+High-Vol F1: 0.518 � 0.089
+Class 1 F1:  0.358
+
+Comparison to Run 2:
+  Run 2 High-Vol F1:     0.711
+  Conditional High-Vol:  0.518
+  Change:                -0.193

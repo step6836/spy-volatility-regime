@@ -1,0 +1,14 @@
+SPY Volatility Regime Detection - Summary
+==================================================
+High-Volatility Detection (Classes 2+3):
+  F1 Score:  0.654 � 0.045
+  Precision: 0.698
+  Recall:    0.620
+
+Fold-by-Fold Results:
+  Fold 1: F1 = 0.698, Precision = 0.789, Recall = 0.625
+  Fold 2: F1 = 0.699, Precision = 0.754, Recall = 0.652
+  Fold 3: F1 = 0.643, Precision = 0.600, Recall = 0.692
+  Fold 4: F1 = 0.593, Precision = 0.640, Recall = 0.552
+  Fold 5: F1 = 0.637, Precision = 0.707, Recall = 0.580
+

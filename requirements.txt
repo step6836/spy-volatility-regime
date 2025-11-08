@@ -1,0 +1,23 @@
+# SPY Volatility Regime Detection - Requirements
+# Python 3.8+
+
+# Core Dependencies
+pandas>=1.5.0
+numpy>=1.23.0
+xgboost>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Model Interpretability
+shap>=0.42.0
+
+# Optional (for notebooks/experiments)
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Data handling (if needed)
+openpyxl>=3.0.0
+yfinance>=0.2.0
