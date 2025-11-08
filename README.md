@@ -17,7 +17,7 @@ This project implements a production-ready volatility regime detector for SPY (S
 ---
 
 ## Performance
-```
+
 | Metric                   | Value              |
 |---------------------------|------------------|
 | **High-Volatility F1**    | **0.654 ± 0.045** |
@@ -25,7 +25,7 @@ This project implements a production-ready volatility regime detector for SPY (S
 | Recall                    | 0.620            |
 | Low-Volatility F1         | 0.840            |
 | Dataset                   | SPY 2019-2024    |
-```
+
 **Per-Class Performance:**
 
 - **Class 0 (Compression):** F1 = 0.840 - Model excels at identifying low-volatility periods
@@ -51,7 +51,7 @@ Engineered 9 entropy-based features (tight candles, return entropy, momentum col
   - `tight_candles`: d = 1.06 (only useful feature)  
 
 **Tested Approaches (6 iterations):**
-```
+
 | Approach                       | F1 Score |
 |--------------------------------|----------|
 | All entropy features (+9)       | 0.435    |
@@ -60,7 +60,7 @@ Engineered 9 entropy-based features (tight candles, return entropy, momentum col
 | Two-stage hierarchical model    | 0.463    |
 | 3-class restructure             | 0.379    |
 | Conditional/gated features      | 0.518    |
-```
+
 **Conclusion:** Selected **8-feature model** (F1 = 0.654) for production. Entropy features inherently trade off sideways vs. high-volatility detection.
 
 ---
