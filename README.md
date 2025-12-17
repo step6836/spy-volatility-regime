@@ -279,7 +279,6 @@ FOLD 1-5 Results:
 ## Author
 
 **Stephanie H.**
-- Psychology Major (Neuroscience Emphasis) → Data Science
 - [https://www.linkedin.com/in/stephaniehur/](#) | [https://github.com/step6836](#) 
 
 ---
